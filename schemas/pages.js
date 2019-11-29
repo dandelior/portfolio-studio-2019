@@ -1,5 +1,5 @@
 export default {
-    title: "Páginas",
+    title: "Página",
     name: "page",
     type: "document",
     fields: [
