@@ -2,6 +2,12 @@ export default {
     title: "Trabajo",
     name: "trabajo",
     type: "document",
+    fieldsets: [
+      {
+        name: "detalles",
+        title: "Detalles del Proyecto"
+      }
+    ],
     fields: [
       {
         title: "Nombre",
@@ -17,16 +23,19 @@ export default {
         title: "Cliente",
         name: "cliente",
         type: "string",
+        fieldset: 'detalles'
       },
       {
         title: "Encargo",
         name: "encargo",
         type: "text",
+        fieldset: 'detalles'
       },
       {
         title: "Agencia",
         name: "agencia",
         type: "string",
+        fieldset: 'detalles'
       },
       {
         title: "Contenido",
