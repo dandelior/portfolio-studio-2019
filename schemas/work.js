@@ -15,9 +15,20 @@ export default {
         type: "string",
       },
       {
+        title: "Slug",
+        name: "slug",
+        type: "slug"
+      },
+      {
         title: "Imágen de Portada",
         name: "imagen_portada",
         type: "image",
+      },
+      {
+        title: "Descripción",
+        name: "descripcion",
+        type: "array",
+        of: [{type: 'block'}]
       },
       {
         title: "Cliente",
@@ -38,10 +49,19 @@ export default {
         fieldset: 'detalles'
       },
       {
+        title: "Fecha",
+        name: "fecha",
+        type: "string",
+        fieldset: 'detalles'
+      },
+      {
         title: "Contenido",
         name: "contenido",
         type: "array",
-        of: [{type: 'block'}]
+        of: [
+          {type: 'block'},
+          {type: 'image'}
+        ]
       },
     ]
   }
