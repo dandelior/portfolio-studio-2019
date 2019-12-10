@@ -12,7 +12,7 @@ export default createSchema({
   name: 'default',  
   types: schemaTypes.concat([
     // page,
-    trabajo,
+    trabajo
   ])
 
 })
