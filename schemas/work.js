@@ -25,6 +25,11 @@ export default {
         type: "image",
       },
       {
+        title: "Imágen de Grilla",
+        name: "imagen_grilla",
+        type: "image",
+      },
+      {
         title: "Descripción",
         name: "descripcion",
         type: "array",
