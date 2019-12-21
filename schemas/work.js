@@ -32,7 +32,7 @@ export default {
       {
         title: "Descripción",
         name: "descripcion",
-        type: "string"
+        type: "text"
       },
       {
         title: "Cliente",
